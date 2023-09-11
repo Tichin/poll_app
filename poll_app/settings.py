@@ -17,6 +17,7 @@ load_dotenv()
 
 
 DATABASE_USER = os.environ['DATABASE_USER']
+TIME_ZONE = os.environ['TIME_ZONE']
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -116,7 +117,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = TIME_ZONE
 
 USE_I18N = True
 
